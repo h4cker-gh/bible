@@ -1,0 +1,18 @@
+.hamburger-button {
+    padding: var(--spacing-sm);
+    border: none;
+    background: none;
+    width: 64px;
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.hamburger-icon {
+    color: var(--color-text);
+    width: 100%;
+    height: 100%;
+}
+
+.hamburger-icon:hover {
+    opacity: 0.5;
+}

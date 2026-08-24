@@ -1,0 +1,18 @@
+#navbar {
+	position: absolute;
+	height: 100%;
+	width: max-content;
+	transform: translateX(-100%);
+	transition: transform 0.1s ease-in-out;
+	left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+	padding: 2rem var(--spacing-2xl);
+	background-color: var(--color-surface);
+}
+
+#navbar[data-show] {
+	transform: translateX(0);
+}

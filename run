@@ -1,0 +1,2 @@
+ip=$(hostname -I | xargs -L 1)
+php -S $ip:5432 -t public

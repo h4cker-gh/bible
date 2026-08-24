@@ -1,0 +1,21 @@
+.toggle-button {
+    width: 5rem;
+    aspect-ratio: 2/1;
+    border-radius: var(--radius-md);
+    border-width: 3px;
+    border-style: solid;
+    color: var(--color-text);
+    font: var(--font-ui);
+    font-weight: 800;
+    font-size: var(--font-size-lg);
+}
+
+.toggle-button:not([data-active]) {
+    background-color: var(--color-danger);
+    border-color: var(--color-danger-soft);
+}
+
+.toggle-button[data-active] {
+    background-color: var(--color-success);
+    border-color: var(--color-success-soft);
+}
