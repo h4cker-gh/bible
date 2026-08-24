@@ -1,2 +1,12 @@
-ip=$(hostname -I | xargs -L 1)
-php -S $ip:5432 -t public
+case "$1" in
+    frontend)
+        cd frontend && npm run dev
+    ;;
+    backend)
+        cd backend && npm run dev
+    ;;
+    *)
+        echo "Usage: ./run [frontend|backend]"
+        exit 1
+    ;;
+esac

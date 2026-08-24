@@ -20,6 +20,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
+      "@data/*": [
+        "./src/data/*"
+      ],
       "@app/*": [
         "./src/app/*"
       ],
@@ -48,5 +51,5 @@
   "include": [
     "src",
     "src/main.tsx"
-  ]
+,     "backend/database/database.ts"  ]
 }

@@ -1,0 +1,28 @@
+.bible-verse-card {
+    width: 100%;
+    font-family: var(--font-reading);
+    font-size: var(--font-size-2xl);
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-md);
+    background: var(--color-background);
+    padding: var(--spacing-md);
+}
+
+.bible-verse-card:hover {
+    background: var(--color-surface);
+}
+
+.bible-verse-card:active {
+    background: var(--color-primary);
+    color: var(--color-primary-contrast);
+}
+
+.bible-verse-card:active .bible-verse-number {
+    color: var(--color-accent-soft);
+}
+
+.bible-verse-number {
+    color: var(--color-accent);
+    font-weight: bolder;
+}

@@ -1,0 +1,8 @@
+.divider {
+    width: 90%;
+    background-color: var(--color-divider);
+    margin-top: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    padding: 2px;
+    border-radius: var(--radius-xl);
+}
